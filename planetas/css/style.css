@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    text-align: center;
+    background-image: url(../img/estrelas.jpg);
+}
+
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(9,9,120,1) 51%, rgba(0,0,0,1) 100%);
+}
+
+img{
+    width: 290px;
+    height: 290px;
+}
+.foto1 img{
+    padding: 10%;
+}
+.foto2 img{
+    padding: 10%;
+}
+.foto3 img{
+    padding: 10%;
+}
+.foto4 img{
+    padding: 10%;
+}
+.foto9 img{
+    padding: 10%;
+}
+.foto6 img{
+    padding: 10%;
+}
+.foto7 img{
+    padding: 10%;
+}
+.foto8 img{
+    padding: 10%;
+}
+.foto{
+
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-template-rows: repeat(3,1fr);
+   
+}
+@media (max-width: 600px)
+{
+    .foto
+    {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+}
